@@ -52,13 +52,13 @@ import Input from './components/Input';
                 } else {
                     newCalc.push(calc[j]);
                 }
-                console.log(newCalc);
+                // console.log(newCalc);
             }
             calc = newCalc;
             newCalc = [];
         }
         if (calc.length > 1) {
-            console.log('Error: unable to resolve calculation');
+            // console.log('Error: unable to resolve calculation');
             return calc;
         } else {
             return calc[0];
@@ -66,8 +66,9 @@ import Input from './components/Input';
     }
     evaluate = () =>{
       let upatedRes=this.calculate( this.parseCalculationString(this.state.input));
-      console.log(upatedRes);
       this.setState({result: upatedRes,prevInput: this.state.input, input:'' });
+      
+      
     }
 
     addInput = val => {
@@ -94,10 +95,7 @@ import Input from './components/Input';
                 this.setState({input:this.state.input + val});
           };
 
-          // if( '*/%+-'.indexOf(lastchar) ===-1 && '*/%+-'.indexOf(val) >-1){
-          //   this.setState({input:this.state.input + val});
-          // }
-         console.log("i am not empty");
+        //  console.log("i am not empty");
       }else{
         if(val !=='x' && val !=='/' && val !=='%' && val !=='+'){
           let updatedState ={
@@ -105,7 +103,7 @@ import Input from './components/Input';
             input:this.state.input + val
           }
             this.setState(updatedState);
-            console.log("i am empty");
+            // console.log("i am empty");
         }
       }
     };
