@@ -1,0 +1,28 @@
+.button{
+
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: 'sans-serif' ;
+    align-items: center;
+    font-weight: normal;
+    font-size: 1.4em;
+    background-color: #ffffff47;;
+    color:  rgb(8, 176, 244);
+    flex: 1;
+    /* outline: 1px solid wheat; */
+    border-radius: 50%;
+    padding: .25em;
+    margin: .7em;
+    box-shadow: 0 8px 8px rgba(215, 211, 211, 0.58);
+}
+
+.operator {
+    background-color: rgb(8, 176, 244);
+    color: white;
+    box-shadow: 0 9px 8px rgba(0, 157, 212, 0.53);
+}
+.equal {
+    display: flex;
+    flex-grow: 0;
+}

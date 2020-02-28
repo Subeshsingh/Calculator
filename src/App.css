@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+*{
+  margin: 0em;
+  padding: 0em;
+}
+.App{
+   background-color: #357EC7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+   flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cal-wrapper{
+  /* max-width: 350px; */
+  width: 350px;
+  height: 600px;
+  background: whitesmoke;
+  border-radius: 2%;
+  margin: auto;
+  box-shadow: 0 30px 30px rgba(212, 0, 150, 0.40)
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
