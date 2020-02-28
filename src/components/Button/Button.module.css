@@ -22,3 +22,10 @@
     color: white;
     box-shadow: 0 9px 8px rgba(0, 157, 212, 0.53);
 }
+
+.operator-equal{
+    background-color: rgb(8, 176, 244);
+    color: white;
+    box-shadow: 0 9px 8px rgba(0, 157, 212, 0.53);
+    border-radius: 58px;
+}

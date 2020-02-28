@@ -3,11 +3,11 @@ import  classes from './Button.module.css';
 
  const Button=(props)=> {
     let cls =[classes.button];
-    if(props.btnType){
+    if(props.btnType==="operator"){
         cls.push(classes[props.btnType]);
     }
-    if( props.children === "="){
-        cls.push(classes[classes.equal]);
+    if( props.btnType === "operator-equal"){
+        cls.push(classes[props.btnType]);
     }
 
     return (

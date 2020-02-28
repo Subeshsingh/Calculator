@@ -188,7 +188,7 @@ import Input from './components/Input';
           <div className="equal">
             <Button handleClick={this.addZeroInput}>0</Button>
             <Button handleClick={this.addDecimal}>.</Button>
-            <Button handleClick={this.evaluate} btnType="operator">=</Button>
+            <Button handleClick={this.evaluate} btnType="operator-equal">=</Button>
           </div>
         </div>
     </div>
