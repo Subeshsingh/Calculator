@@ -185,7 +185,7 @@ import Input from './components/Input';
             <Button handleClick={this.addInput}>3</Button>
             <Button handleClick={this.addInput} btnType="operator">+</Button>
           </div>
-          <div className="row">
+          <div className="equal">
             <Button handleClick={this.addZeroInput}>0</Button>
             <Button handleClick={this.addDecimal}>.</Button>
             <Button handleClick={this.evaluate} btnType="operator">=</Button>

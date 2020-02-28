@@ -22,7 +22,3 @@
     color: white;
     box-shadow: 0 9px 8px rgba(0, 157, 212, 0.53);
 }
-.equal {
-    display: flex;
-    flex-grow: 0;
-}
